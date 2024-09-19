@@ -14,7 +14,7 @@ function News() {
   const getData = async (search) => {
     console.log(search)
     const response = await fetch(
-      `https://newsapi.org/v2/everything?q=${search}&apiKey=${News_API}`
+      `http://newsapi.org/v2/everything?q=${search}&apiKey=${News_API}`
     );
     const response_json = await response.json();
     console.log(response_json.articles);
