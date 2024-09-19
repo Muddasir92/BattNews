@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  width: 100%;
+}
+.nave {
+  /* background-color: antiquewhite; */
+}
+.head {
+  display: flex;
+  /* justify-content: center; */
+  gap: 35%;
+  width: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.header {
+  width: 40%;
+}
+.header h1 {
+  color: rgb(31, 128, 58);
+}
+hr {
+  border-top: 1px solid rgb(226, 219, 219);
+}
+.newslinks {
+  padding: 7px;
+  /* background-color: yellow; */
+
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.searchBar {
+  width: 240px;
+
+  height: 35px;
+  border: none;
+  /* background-color: yellow; */
+}
+.searchBar input {
+  width: 80%;
+  height: 97%;
+  border: 1px solid rgb(194, 177, 177);
+  border-right: none;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.search_btn {
+  height: 100%;
+  border: none;
+  border-radius: none;
+  width: 20%;
+  color: white;
+  background-color: rgb(31, 128, 58);
+}
+.newslinks {
+  width: auto;
+  height: 28px;
+  box-shadow: 0px 5px 9px -1px #b8abab;
+  /* background-color: yellow; */
+}
+.newslinks ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 9px;
+  text-decoration: none;
+}
+.newslinks ul li {
+  text-align: center;
+  align-items: center;
+  padding: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newslinks ul li:hover {
+  background-color: rgb(236, 70, 70);
+}
+.newslinks ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(132, 118, 118);
+}
+.newslinks ul li a:hover {
+  color: white;
+}
+.newsLink {
+  color: black;
+  text-decoration: none;
+  /* padding: 10px; */
+  transition: background-color 0.3s;
+}
+
+.newsLink.active {
+  background-color: rgb(
+    236,
+    70,
+    70
+  ); /* Set background color for the active link */
+  color: white;
+  padding: 5px;
+  /* padding-left: 13px; */
+}
+
+/* Card css  */
+
+.news {
+  width: 96.5.6%;
+
+  gap: 40px;
+  padding: 20px;
+  /* background-color: yellow; */
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top of each row */
+  flex-wrap: wrap;
+  gap: 2.5%;
+}
+.card {
+  /* background-color: red; */
+  width: 270px;
+  height: auto;
+  display: flex;
+
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.card img {
+  height: 250px;
+  width: 270px;
+  margin: 0px;
+}
+.title {
+  margin-top: 0px;
+  /* text-align: center; */
+  padding: 0px 2px;
+  /* background-color: red; */
+}
+.title a {
+  text-decoration: none;
+  color: black;
+}
+.title a:hover {
+  color: #1e1ee8;
+}
+.read_more {
+  background-color: rgb(236, 70, 70);
+  border: none;
+  padding: 5px;
+  margin-top: 4px;
+  color: white;
+}
+
+/* Footer css */
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+/* footer css */
+
+.footer {
+  width: auto;
+  background-color: rgb(204, 197, 188);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.section {
+  margin-top: 0px;
+  width: 30%; /* Adjust width for larger screens */
+  margin-bottom: 20px;
+}
+.section h2{
+  padding: 9px 0;
+}
+.section p{
+  padding: 9px 0;
+}
+.section ul{
+  list-style: none;
+  padding-top: 5px;
+
+}
+.section ul li{
+  margin-top: 7px;
+}
+
+.fab{
+  font-size: 1.6rem;
+  margin-right: 6px;
+  width: 35px;
+  color:rgb(53, 45, 56);;
+  /* background-color: rgb(31, 128, 58); */
+}
+
+ @media (max-width: 768px) {
+  .section{
+    width: 100%; 
+    text-align: center; 
+    
+    
+
+  }
+  
+ }  
+ a{
+  text-decoration: none;
+  
+ }
+ #findus{
+  box-sizing: border-box;
+  padding-left: 30px;
+  /* background-color: red; */
+ }
