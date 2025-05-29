@@ -9,7 +9,9 @@ function App() {
 
   return (
     <div className='app'>
+      //header file
     <BattNews/>
+      //footer file
     <Footer/>
     </div>
   )
